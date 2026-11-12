@@ -1,0 +1,17 @@
+#:schema node_modules/wrangler/config-schema.json
+name = "jazelle-furniture"
+compatibility_date = "2026-11-10"
+
+# Deploys the static site (the ./out folder) as a Cloudflare Worker with
+# static assets. This works with the plain `npx wrangler deploy` command
+# that Cloudflare's git integration runs by default, and locally via
+# `npx wrangler deploy` after `npx wrangler login`.
+# No `main` entry-point: the whole site is static files, no server code.
+
+[assets]
+directory = "./out"
+# unknown paths serve out/404.html instead of a plain error
+not_found_handling = "404-page"
+
+[observability]
+enabled = true
