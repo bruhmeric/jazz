@@ -1,0 +1,52 @@
+{
+  "bed": [
+    "bed-1.jpg",
+    "bed-2.jpg",
+    "bed-3.jpg",
+    "bed-4.jpg"
+  ],
+  "dining": [
+    "dining-1.jpg",
+    "dining-2.jpg",
+    "dining-3.png",
+    "dining-4.jpg"
+  ],
+  "dressing": [
+    "dressing-1.jpg",
+    "dressing-2.png",
+    "dressing-3.jpg",
+    "dressing-4.jpg"
+  ],
+  "kids": [
+    "kids-1.jpg",
+    "kids-2.jpg",
+    "kids-3.jpg",
+    "kids-4.jpg"
+  ],
+  "office": [
+    "office-1.png",
+    "office-2.jpg",
+    "office-3.jpg",
+    "office-4.jpg"
+  ],
+  "sofa": [
+    "sofa-1.jpg",
+    "sofa-2.jpg",
+    "sofa-3.png",
+    "sofa-4.jpg",
+    "sofa-5.jpg",
+    "sofa-6.jpg"
+  ],
+  "tv": [
+    "tv-1.jpg",
+    "tv-2.jpg",
+    "tv-3.jpg",
+    "tv-4.jpg"
+  ],
+  "wardrobe": [
+    "wardrobe-1.jpg",
+    "wardrobe-2.jpg",
+    "wardrobe-3.jpg",
+    "wardrobe-4.jpg"
+  ]
+}
