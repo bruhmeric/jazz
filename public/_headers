@@ -1,0 +1,14 @@
+# Cloudflare Pages headers — long cache for fingerprinted build assets,
+# sensible cache for images, no cache for HTML
+/_next/static/*
+  Cache-Control: public, max-age=31536000, immutable
+
+/assets/*
+  Cache-Control: public, max-age=2592000
+
+/brand/*
+  Cache-Control: public, max-age=2592000
+
+/*
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
